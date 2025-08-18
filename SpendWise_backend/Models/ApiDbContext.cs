@@ -10,6 +10,5 @@ namespace SpendWise_backend.Models
     {
         public DbSet<Transactions> Transactions { get; set; }
 
-
     }
 }
