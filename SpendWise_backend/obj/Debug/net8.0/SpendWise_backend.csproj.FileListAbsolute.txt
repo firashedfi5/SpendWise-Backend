@@ -248,3 +248,4 @@ C:\Users\firas\OneDrive\Desktop\Programming\Flutter\SpendWise\SpendWise_backend\
 C:\Users\firas\OneDrive\Desktop\Programming\Flutter\SpendWise\SpendWise_backend\SpendWise_backend\obj\Debug\net8.0\SpendWise_backend.pdb
 C:\Users\firas\OneDrive\Desktop\Programming\Flutter\SpendWise\SpendWise_backend\SpendWise_backend\obj\Debug\net8.0\SpendWise_backend.genruntimeconfig.cache
 C:\Users\firas\OneDrive\Desktop\Programming\Flutter\SpendWise\SpendWise_backend\SpendWise_backend\obj\Debug\net8.0\ref\SpendWise_backend.dll
+C:\Users\firas\OneDrive\Desktop\Programming\Flutter\SpendWise\SpendWise_backend\SpendWise_backend\obj\Debug\net8.0\SpendWise_backend.sourcelink.json

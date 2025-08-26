@@ -9,6 +9,6 @@ namespace SpendWise_backend.Models
     public class ApiDbContext(DbContextOptions option) : DbContext(option)
     {
         public DbSet<Transactions> Transactions { get; set; }
-
+        public DbSet<Users> Users { get; set; }
     }
 }
