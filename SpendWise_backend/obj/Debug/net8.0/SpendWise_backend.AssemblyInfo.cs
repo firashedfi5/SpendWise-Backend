@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpendWise_backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7311325c6e51b2c600ee11b57dda247d322a5a97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9737d14bfff84a426b4d5513b6d598bacf5cabf")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpendWise_backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpendWise_backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
