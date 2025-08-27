@@ -16,6 +16,8 @@ namespace SpendWise_backend.Models
         [Column(TypeName = "decimal(18,2)")]
         public required decimal amount { get; set; }
         public required string type { get; set; }
+        public required string category { get; set; }
+        public required string title { get; set; }
         public required DateTime date { get; set; }
     }
 }
