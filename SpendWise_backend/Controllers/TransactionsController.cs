@@ -15,15 +15,33 @@ namespace SpendWise_backend.Controllers
     {
         private readonly ApiDbContext _context = context;
 
-        // GET: api/Transactions
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Transactions>>> GetTransactions()
+        // GET: api/Transactions/{userId}
+        [HttpGet("{userId}")]
+        public async Task<ActionResult<Dictionary<string, object>>> GetTransactions(string userId)
         {
-            return await _context.Transactions.ToListAsync();
+            try
+            {
+                // Filter transactions by userId
+                var transactions = await _context.Transactions
+                    .Where(t => t.userId == userId)
+                    .ToListAsync();
+
+                return Ok(new Dictionary<string, object>
+                {
+                    ["data"] = transactions
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new Dictionary<string, object>
+                {
+                    ["error"] = ex.Message
+                });
+            }
         }
 
         // GET: api/Transactions/5
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         public async Task<ActionResult<Transactions>> GetTransactionsById(int id)
         {
             var transactions = await _context.Transactions.FindAsync(id);
