@@ -12,5 +12,6 @@ namespace SpendWise_backend.Models
         public required string userId { get; set; }
         public required string username { get; set; }
         public required string email { get; set; }
+        public required string photoURL { get; set; }
     }
 }
