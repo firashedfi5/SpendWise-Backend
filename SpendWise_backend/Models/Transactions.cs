@@ -19,5 +19,6 @@ namespace SpendWise_backend.Models
         public required string category { get; set; }
         public required string title { get; set; }
         public required DateTime date { get; set; }
+        public required DateTime createdAt { get; set; }
     }
 }
