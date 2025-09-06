@@ -24,6 +24,7 @@ namespace SpendWise_backend.Controllers
                 // Filter transactions by userId
                 var transactions = await _context.Transactions
                     .Where(t => t.userId == userId)
+                    .OrderByDescending(t => t.createdAt) //* Sorting
                     .ToListAsync();
 
                 return Ok(new Dictionary<string, object>
